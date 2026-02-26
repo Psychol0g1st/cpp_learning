@@ -1,40 +1,37 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: C++ Programozás
+description: C++ alapok és OOP.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Izgalmas út a C++ világában.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Nézzük a tanulási tervet!
+      link: /utvonalterv/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+      variant: primary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Szia! Jó, hogy itt vagy!
+
+Tudom, hogy a C++ elsőre ijesztő lehet a sok mutatóval meg a memóriakezeléssel, de hidd el, ha megértjük, mi történik a gép "motorházteteje" alatt, sokkal logikusabb lesz az egész. Nem a szintaxist fogjuk bemagolni, hanem azt nézzük meg, hogyan működik ez a valóságban.
+
+Összeraktam nekünk egy 10 alkalmas útvonaltervet, ami pont abban segít, hogy lépésről lépésre, egymásra építve jussunk el az alapoktól a komolyabb dolgokig (mint a memóriakezelés és az Objektumorientált Programozás).
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="A 'Miért?' megértése" icon="magnifier">
+		Nem csak kódolunk, hanem megnézzük a fordítási folyamatot és azt, hogyan helyezkednek el a változóink a fizikai memóriában.
 	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
+	<Card title="Gyakorlati fókusz" icon="laptop">
+		Minden alkalomhoz kitaláltam egy konkrét, gondolkodtató feladatot, ami rákényszerít, hogy tényleg használd a gyakorlatban, amit átvettünk.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Memóriakezelés" icon="setting">
+		Mutatók (pointerek), referenciák, Stack és Heap: megtanuljuk, hogyan osszuk be az erőforrásokat úgy, hogy ne fagyjon le a gép.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Haladóbb szemlélet" icon="puzzle">
+		A 6. alkalomtól bevezetjük a több fájlra bontott kódolást és az OOP alapelveit, hogy átláthatóbb nagy projekteket is tudjunk építeni.
 	</Card>
 </CardGrid>

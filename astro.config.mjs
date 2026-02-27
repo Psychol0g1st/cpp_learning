@@ -3,6 +3,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+	site: 'https://psychol0g1st.github.io',
+	base: '/cpp_learning:',
 	integrations: [
 		starlight({
 			title: 'My Docs',

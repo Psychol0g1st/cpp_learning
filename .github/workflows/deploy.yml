@@ -2,7 +2,7 @@ name: Deploy Starlight to Pages
 
 on:
   push:
-    branches: [ master ] # Vagy a fő ágad neve (pl. master)
+    branches: [ main ] # Vagy a fő ágad neve (pl. master)
 
 permissions:
   contents: read

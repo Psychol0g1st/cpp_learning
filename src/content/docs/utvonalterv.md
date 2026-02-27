@@ -1,6 +1,6 @@
 ---
 title: Tanulási Útvonalterv
-description: A 10 alkalmas C++ gyorstalpalónk tematikája.
+description: C++ tematikája.
 ---
 
 Összeraktam egy 10 alkalmas tervet, ami egymásra épül. Ha ezeken végigmegyünk, teljesen át fogod látni az alapokat és az Objektumorientált Programozást (OOP) is. Íme a menetrend:

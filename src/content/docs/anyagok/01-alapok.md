@@ -1,5 +1,5 @@
 ---
-title: 1. alkalom - A C++ alapjai és a memóriamodell
+title: 01. A C++ alapjai és a memóriamodell
 description: Hogyan lesz a kódunkból program, és mi is az a változó valójában?
 ---
 

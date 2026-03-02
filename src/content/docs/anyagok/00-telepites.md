@@ -1,5 +1,5 @@
 ---
-title: 0. alkalom - A gép felkészítése
+title: 00. A gép felkészítése
 description: Fejlesztői környezet (IDE) telepítése, fordító beállítása és az első Hello World programunk.
 ---
 

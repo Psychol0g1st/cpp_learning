@@ -7,7 +7,7 @@ export default defineConfig({
 	base: '/cpp_learning',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'C++ Programozás',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{

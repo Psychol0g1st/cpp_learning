@@ -171,6 +171,73 @@ int main() {
 
 ```
 
+C++-ban alapvetően **kétféleképpen** tudsz szöveget (stringet) beolvasni a konzolról, attól függően, hogy pontosan mit is szeretnél:
+
+### 5. Csak egyetlen szót akarok (szóközig)
+
+Ha mondjuk csak egy keresztnevet kérsz be, a sima `cin >>` tökéletes. Ennek az a trükkje, hogy addig olvas, amíg az első szóközbe (vagy enterbe) bele nem ütközik.
+
+```cpp
+#include <iostream>
+#include <string> // Ne felejtsd el beemelni!
+using namespace std;
+
+int main() {
+    string nev;
+    cout << "Hogy hivnak (csak a keresztneved)? ";
+    cin >> nev; // Ha beírod, hogy "Kovacs Peter", ide csak a "Kovacs" kerül!
+    
+    cout << "Szia, " << nev << "!" << endl;
+    return 0;
+}
+
+```
+
+### 6. Egy egész sort akarok (szóközökkel együtt)
+
+Ha egy teljes nevet (pl. "Kovács Péter") vagy egy egész mondatot akarsz beolvasni, a `cin >>` cserbenhagy, mert a szóköz utáni részt levágja. Ilyenkor a `getline()` függvényt kell használnunk. Ez beolvas mindent, egészen addig, amíg le nem nyomod az Entert.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string teljes_nev;
+    cout << "Mi a teljes neved? ";
+    
+    getline(cin, teljes_nev); // Ez hiba nélkül beolvassa a szóközöket is
+    
+    cout << "Szia, " << teljes_nev << "!" << endl;
+    return 0;
+}
+
+```
+
+---
+
+### ⚠️ A tipikus csapda: A kettő keverése!
+
+Ha egy programon belül először használsz egy `cin >>` beolvasást (mondjuk bekérsz egy számot, korábban bemutatott módon), és *utána* akarsz egy `getline()`-t használni, a `getline` látszólag "átugrik", lefut anélkül, hogy hagyná begépelni a szöveget.
+
+**Mi történik a motorháztető alatt?** Amikor begépeled a számot és ütsz egy Entert, a `cin` a számot szépen kiveszi és beteszi a változóba, de magát az "Entert" (a sortörés karaktert, `\n`) bent felejti a bemeneti memóriában (a pufferben). Amikor a `getline` sorra kerül, benéz a pufferbe, rögtön meglátja ezt a bent ragadt Entert, és azt hiszi: *"Szuper, a felhasználó már ütött is egy entert, üres stringet adok vissza!"*
+
+**A megoldás:** A kettő közé be kell szúrni egy `cin.ignore();` parancsot, ami kipucolja a bent ragadt Entert:
+
+```cpp
+int eletkor;
+string nev;
+
+cout << "Hany eves vagy? ";
+cin >> eletkor;
+
+cin.ignore(); // <--- EZ MENTI MEG A NAPOT! Kitakarítja a pufferből a bent ragadt Entert.
+
+cout << "Mi a teljes neved? ";
+getline(cin, nev); // Így már hajlandó lesz megvárni, amíg beírod a nevet!
+
+```
+
 ---
 
 ### 📝 Gyakorlat: A "Hőmérséklet-elemző Állomás"

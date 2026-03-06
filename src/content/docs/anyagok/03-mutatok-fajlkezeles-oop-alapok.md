@@ -1,5 +1,5 @@
 ---
-title: 3. alkalom - Mutatók, OOP alapok és a több fájlos kód
+title: 03. Mutatók, OOP alapok és a több fájlos kód
 description: Lépjünk szintet! Hogyan nyúljunk közvetlenül a memóriához, és hogyan szervezzük a kódunkat mérnöki módon?
 ---
 

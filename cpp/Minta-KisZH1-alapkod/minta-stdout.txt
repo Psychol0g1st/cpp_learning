@@ -1,0 +1,67 @@
+main() eleje!
+
+----START OF PART1----
+
+Latszolag OK.
+
+----END OF PART1----
+
+
+----START OF PART2----
+
+Latszolag OK.
+
+----END OF PART2----
+
+
+----START OF PART3----
+
+porszivo 51.99
+[*****] Works perfectly.
+[*    ] Broken after 1 use.
+[**   ] Hard to handle, overpriced.
+[*****] OK
+[**** ] Too much noise.
+
+mikro 109.49
+[***  ] Labels do not match.
+[*****] Nice.
+[**   ] Barely works.
+
+----END OF PART3----
+
+
+----START OF PART4----
+
+3.40
+3.33
+
+----END OF PART4----
+
+
+----START OF PART5----
+
+4.20
+3.70
+4.20
+
+----END OF PART5----
+
+
+----START OF PART6----
+
+elfogadhato: 4.20 -> 1 0 0
+elfogadhato: 3.90 -> 1 1 0
+elfogadhato: 5.00 -> 0 0 0
+elfogadhato: 3.50 -> 1 1 1
+
+----END OF PART6----
+
+
+----START OF PART7----
+
+Nevter rendben!
+
+----END OF PART7----
+
+main() vege!

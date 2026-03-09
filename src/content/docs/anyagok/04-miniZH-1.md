@@ -61,7 +61,7 @@ A konstruktor inicializáló listáján (`: Product(name, price)`) meghívjuk az
 ### PART 2: Értékelés beállítása (1 pont)
 
 A feladat: Egy `setReview` metódus, ami indexet és `Review`-t kap, majd beteszi a tömbbe.
-**Megoldás:** Simán a tömb megfelelő indexére tesszük az átadott értéket: `reviews[index] = r;`. (Mivel a feladat kéri, hogy figyeljünk a referenciákra, az objektumot `const Review& r` formában érdemes átadni, hogy ne másoljuk feleslegesen a memóriát).
+**Megoldás:** Simán a tömb megfelelő indexére tesszük az átadott értéket: `reviews[index] = r;`. (Mivel a feladat kéri, hogy figyeljünk a referenciákra, az objektumot `const Review r` formában érdemes átadni, hogy ne másoljuk feleslegesen a memóriát).
 
 ### PART 3: A kiíratás felülírása (2 pont)
 
@@ -121,7 +121,7 @@ namespace ToolsForRating {
         ~RatedProduct();
 
         // PART 2: Értékelés beállítása (referenciát használunk másolás helyett!)
-        void setReview(int index, const Review& r);
+        void setReview(int index, const Review r);
 
         // PART 3: Kiíratás "felülírása"
         void print() const;
@@ -173,7 +173,7 @@ namespace ToolsForRating {
     }
 
     // PART 2: setReview
-    void RatedProduct::setReview(int index, const Review& r) {
+    void RatedProduct::setReview(int index, const r) {
         // Jó mérnöki gyakorlat megnézni, hogy jó-e az index
         if (index >= 0 && index < reviewCount) {
             reviews[index] = r;
@@ -225,9 +225,3 @@ namespace ToolsForRating {
 > **Az Utolsó Lépés:** Beadás előtt nyisd meg a `megoldott_feladatok.h` fájlt, és **töröld ki a `//` jeleket** a `#define PART...` sorok elől! Így fogja a gép lefuttatni a te új kódodat.
 
 Ha ezt a logikát megérted, garantált a pontszerzés. Sok sikert a Kis ZH-hoz, szurkolok! Ha bármi nem világos az elméletben, kérdezz nyugodtan!
-
-```
-
-Ezzel a hallgatód rögtön átlátja a feladat mögötti koncepciókat (miért kell az inicializáló lista, hogyan kell memóriát foglalni és törölni a konstruktorban/destruktorban), és azonnal fel tudja használni a megoldást a ZH-n! Szólj, ha kiegészítsem még valamivel!
-
-```

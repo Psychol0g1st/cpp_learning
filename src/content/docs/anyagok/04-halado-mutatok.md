@@ -140,7 +140,3 @@ Most teszteljük le, hogy átlátod-e a 2D mátrixokat!
 4. Kérj be egy X és Y koordinátát, és tegyél oda egy `X` karaktert (ez a kincs!).
 5. Írasd ki a képernyőre a teljes mátrixot két egymásba ágyazott `for` ciklussal.
 6. A program végén szakszerűen, lépésről lépésre szabadítsd fel a lefoglalt memóriát (`delete[]`).
-
-Ha ezt a feladatot össze tudod rakni, akkor a memóriakezelés és a pointerek többé nem fognak tudni meglepni!
-
-```

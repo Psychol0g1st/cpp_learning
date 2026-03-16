@@ -9,7 +9,7 @@ class GradeCourse: public Course
 {
 public:
     GradeCourse(const string& name, int credits, int reviewsCount);
-
+d
 };
 
 #endif // GRADECOURSE_H

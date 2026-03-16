@@ -1,5 +1,5 @@
 ---
-title: Haladó Mutatók - Tömbök, Sztringek és Mátrixok
+title: 04. Haladó Mutatók - Tömbök, Sztringek és Mátrixok
 description: Lépjünk a színfalak mögé! Hogyan kezeli a C++ a memóriában a többdimenziós adatokat és a szövegeket mutatók segítségével?
 ---
 

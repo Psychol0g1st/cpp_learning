@@ -8,8 +8,7 @@ using namespace std;
 class GradeCourse: public Course
 {
 public:
-    GradeCourse(const string& name,
-           int credits);
+    GradeCourse(const string& name, int credits, int reviewsCount);
 
 };
 

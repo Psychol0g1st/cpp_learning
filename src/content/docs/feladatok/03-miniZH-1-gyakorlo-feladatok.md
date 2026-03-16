@@ -1,5 +1,5 @@
 ---
-title: C++ Programozás 2 – Gyakorló KisZH feladatsorok
+title: 03. Gyakorló KisZH 1 feladatsorok
 description: Öt darab, automatikusan ellenőrizhető gyakorló KisZH feladatsor C++ Programozás 2 kurzushoz.
 sidebar:
   label: Gyakorló KisZH feladatsorok
@@ -15,11 +15,7 @@ Minden feladathoz tartozik kiinduló alapkód, `main.cpp` alapú automatikus ell
 
 A teljes gyakorló csomag innen tölthető le:
 
-**[Gyakorló KisZH csomag letöltése (ZIP)](/downloads/cpp2_kiszh_gyakorlo_5csomag.zip)**
-
-> Ha ezt saját Astro Starlight projektbe teszed be, akkor a zipet érdemes például a `public/downloads/` mappába rakni, és a linket erre cserélni:
->
-> `/downloads/cpp2_kiszh_gyakorlo_5csomag.zip`
+**[Gyakorló KisZH csomag letöltése (ZIP)](/cpp_learning/downloads/cpp2_kiszh_gyakorlo_5csomag.zip)**
 
 ## Tartalom
 

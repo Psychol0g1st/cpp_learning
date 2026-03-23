@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-class Review
+class   Review
 {
     int stars;
     string comment;

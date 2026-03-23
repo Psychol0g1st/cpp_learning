@@ -1,0 +1,63 @@
+main() eleje!
+
+----START OF PART1----
+
+Latszolag OK.
+
+----END OF PART1----
+
+
+----START OF PART2----
+
+Latszolag OK.
+
+----END OF PART2----
+
+
+----START OF PART3----
+
+Prog2 5 kredit
+78 pont - zh1
+84 pont - zh2
+91 pont - beadando
+
+Diszkret 4 kredit
+56 pont - teszt
+64 pont - vizsga
+
+----END OF PART3----
+
+
+----START OF PART4----
+
+73.33
+61.00
+
+----END OF PART4----
+
+
+----START OF PART5----
+
+60.00
+67.50
+60.00
+
+----END OF PART5----
+
+
+----START OF PART6----
+
+minimum: 60.00 -> 1 1 0
+minimum: 50.00 -> 1 1 0
+minimum: 75.00 -> 0 0 0
+
+----END OF PART6----
+
+
+----START OF PART7----
+
+Nevter rendben!
+
+----END OF PART7----
+
+main() vege!

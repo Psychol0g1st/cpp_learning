@@ -1,0 +1,65 @@
+main() eleje!
+
+----START OF PART1----
+
+Latszolag OK.
+
+----END OF PART1----
+
+
+----START OF PART2----
+
+Latszolag OK.
+
+----END OF PART2----
+
+
+----START OF PART3----
+
+Budapest - Lions
+2:0
+1:1
+3:2
+0:1
+
+Pecs - Waves
+0:0
+4:2
+1:2
+
+----END OF PART3----
+
+
+----START OF PART4----
+
+1.75
+0.67
+
+----END OF PART4----
+
+
+----START OF PART5----
+
+1.80
+2.10
+1.80
+
+----END OF PART5----
+
+
+----START OF PART6----
+
+minimum: 1.80 -> 1 0 0
+minimum: 1.00 -> 1 1 0
+minimum: 2.60 -> 0 0 0
+
+----END OF PART6----
+
+
+----START OF PART7----
+
+Nevter rendben!
+
+----END OF PART7----
+
+main() vege!

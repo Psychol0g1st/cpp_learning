@@ -1,9 +1,7 @@
 ---
-title: C++ 2. KisZH gyakorlócsomag
+title: 06. Gyakorló 2. KisZH feladatsorok
 description: 5 új, automatikusan ellenőrizhető C++ gyakorlófeladatsor a minta 2. KisZH szerkezetében.
 ---
-
-# C++ 2. KisZH gyakorlócsomag
 
 Ez az oldal 5 darab, a mintafeladat szerkezetét követő gyakorlófeladatsort tartalmaz.  
 Mindegyik feladatsor ugyanarra az alapelvre épül:

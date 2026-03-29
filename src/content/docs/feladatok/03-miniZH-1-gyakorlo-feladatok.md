@@ -1,12 +1,7 @@
 ---
-title: 03. Gyakorló KisZH 1 feladatsorok
+title: 03. Gyakorló 1. KisZH feladatsorok
 description: Öt darab, automatikusan ellenőrizhető gyakorló KisZH feladatsor C++ Programozás 2 kurzushoz.
-sidebar:
-  label: Gyakorló KisZH feladatsorok
-  order: 10
 ---
-
-# C++ Programozás 2 – Gyakorló KisZH feladatsorok
 
 Ez az oldal 5 darab, a mintához hasonló felépítésű gyakorló KisZH feladatsort tartalmaz. 
 Minden feladathoz tartozik kiinduló alapkód, `main.cpp` alapú automatikus ellenőrzés, valamint mintakimenet.

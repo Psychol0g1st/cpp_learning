@@ -86,18 +86,6 @@ Pont operator++(int) {
 }
 ```
 
----
-
-## Interaktív Operátor Tanácsadó
-
-Nézd meg, hogyan alakítja át a fordító a kódodat függvényhívásokká a háttérben!
-
-```json?chameleon
-{"component":"LlmGeneratedComponent","props":{"height":"650px","prompt":"Hozzon létre egy interaktív oktatóeszközt 'C++ Operátor Vizualizáló' néven. A felhasználó választhasson kódminták közül: 'a += b', 'a + b', 'cout << a', '++a'. Amikor választ, jelenjen meg a 'színfalak mögötti' transzformáció (pl. 'a + b' -> 'operator+(a, b)'). Magyarázza el közérthető magyar nyelven, hogy miért tagfüggvény vagy külső függvény az adott megvalósítás, és mi a visszatérési értéke. Az eszköz legyen vizuálisan tiszta, a kód részeit jelölje ki (pl. paraméterek, operátor név). Ne használjon CSS-t a promptban.","id":"im_f6f6b63203ebcd15"}}
-```
-
----
-
 ## 4. Gyakorló Feladatok
 
 ### 1. Feladat: A Tört-matek (Kezdő)

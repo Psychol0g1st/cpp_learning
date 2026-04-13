@@ -1,5 +1,5 @@
 ---
-title: 09. Típuskonverzió: dynamic_cast
+title: "09. Típuskonverzió: dynamic_cast"
 description: Ismerd meg a biztonságos lefelé kasztolás (downcasting) mechanizmusát és a futásidejű típusazonosítást (RTTI).
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: C++ Templétek (Sablonok) Alapjai
+title: 07. C++ Templétek (Sablonok) Alapjai
 description: Bevezetés a C++ templétek világába. Generikus programozás, függvény és osztály sablonok elmélete, példái és gyakorló feladatai.
 ---
 

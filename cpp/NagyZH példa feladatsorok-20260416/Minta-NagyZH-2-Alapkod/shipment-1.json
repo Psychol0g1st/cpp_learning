@@ -1,0 +1,24 @@
+{
+  "ShipmentItems": [
+    {
+      "ProductId": "8002",
+      "Quantity": 5
+    },
+    {
+      "ProductId": "1234",
+      "Quantity": 10
+    },
+    {
+      "ProductId": "7409",
+      "Quantity": 20
+    },
+    {
+      "ProductId": "8999",
+      "Quantity": 6
+    },
+    {
+      "ProductId": "9812",
+      "Quantity": 3
+    }
+  ]
+}

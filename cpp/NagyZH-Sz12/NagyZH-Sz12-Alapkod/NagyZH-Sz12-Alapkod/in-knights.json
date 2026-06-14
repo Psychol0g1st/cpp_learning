@@ -1,0 +1,22 @@
+[
+    {
+        "Id": "K1",
+        "Price": 120,
+        "Strength": 80
+    },
+    {
+        "Id": "K2",
+        "Price": 160,
+        "Strength": 110
+    },
+    {
+        "Id": "K3",
+        "Price": 290,
+        "Strength": 120
+    },
+    {
+        "Id": "K4",
+        "Price": 410,
+        "Strength": 130
+    }
+]

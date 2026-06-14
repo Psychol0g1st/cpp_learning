@@ -1,0 +1,4 @@
+Bike B1, price: 120000, electric: yes
+Car C1, price: 2500000, seats: 5
+Truck T1, price: 9000000, capacity: 7.5
+Total price: 11620000

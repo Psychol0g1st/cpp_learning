@@ -1,0 +1,5 @@
+[Knight K1, price: 120, strength: 80]
+[Knight K2, price: 150, strength: 110]
+[Ranger R1, price: 90, agility: 35]
+[Mage M1, price: 200, magic: 0.1]
+Total cost: 410

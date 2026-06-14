@@ -1,0 +1,5 @@
+add chair done
+buy existing ok: 1, money: 3000
+buy too many: 0, money: 3000
+buy missing: 0, money: 3000
+buy too expensive: 0, money: 1000

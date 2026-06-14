@@ -1,0 +1,3 @@
+#P1: Szek, 14990 Ft
+#P2: Asztal, 39990 Ft
+Total: 54980

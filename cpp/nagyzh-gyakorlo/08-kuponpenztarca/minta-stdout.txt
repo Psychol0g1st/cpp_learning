@@ -1,0 +1,4 @@
+Total: 3800
+After coupons 1: 300
+After coupons 2: 1300
+After coupons 3: 3300

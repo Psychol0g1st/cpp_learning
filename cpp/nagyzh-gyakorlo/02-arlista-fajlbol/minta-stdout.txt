@@ -1,0 +1,5 @@
+Szek
+Asztal
+Polc
+Total: 76970
+Most expensive: P2

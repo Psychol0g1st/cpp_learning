@@ -1,0 +1,123 @@
+main() eleje!
+
+--- Tavern, beolvas JSON fajlokbol
+Megtortent.
+
+--- Tavern, printAll()
+[Knight K1, price: 120, strength: 80]
+[Knight K2, price: 160, strength: 110]
+[Knight K3, price: 290, strength: 120]
+[Knight K4, price: 410, strength: 130]
+[Ranger R1, price: 75, agility: 25]
+[Ranger R2, price: 115, agility: 35]
+[Ranger R3, price: 145, agility: 45]
+[Ranger R4, price: 185, agility: 65]
+[Ranger R5, price: 325, agility: 85]
+[Mage M1, price: 200, magic: 0.01]
+[Mage M2, price: 500, magic: 0.05]
+[Mage M3, price: 2000, magic: 0.3]
+
+--- Party, beolvasas szovegfajlbol
+Megtortent.
+
+--- Party, printAll()
+
+Party1:
+[Knight K1, price: 120, strength: 80]
+[Knight K2, price: 160, strength: 110]
+[Ranger R1, price: 75, agility: 25]
+[Mage M1, price: 200, magic: 0.01]
+
+Party2:
+[Ranger R1, price: 75, agility: 25]
+[Knight K3, price: 290, strength: 120]
+[Ranger R2, price: 115, agility: 35]
+[Knight K1, price: 120, strength: 80]
+[Ranger R4, price: 185, agility: 65]
+[Ranger R3, price: 145, agility: 45]
+[Mage M1, price: 200, magic: 0.01]
+[Mage M2, price: 500, magic: 0.05]
+
+Party3:
+[Ranger R1, price: 75, agility: 25]
+[Knight K4, price: 410, strength: 130]
+[Knight K3, price: 290, strength: 120]
+[Mage M3, price: 2000, magic: 0.3]
+[Ranger R5, price: 325, agility: 85]
+
+--- Party, getTotalCost()
+Party1 zsoldja: 555
+Party2 zsoldja: 1630
+Party3 zsoldja: 3100
+
+--- Party, raid()
+
+Party1 vs Dragon1:
+K1 tamad! Sarkany HP: 1450
+K2 tamad! Sarkany HP: 1370
+R1 tamad! Sarkany HP: 1345
+M1 tamad! Sarkany HP: 1331
+*** Sarkany felfalja: K1
+K2 tamad! Sarkany HP: 1251
+R1 tamad! Sarkany HP: 1226
+M1 tamad! Sarkany HP: 1213
+*** Sarkany felfalja: K2
+R1 tamad! Sarkany HP: 1188
+M1 tamad! Sarkany HP: 1176
+*** Sarkany felfalja: R1
+M1 tamad! Sarkany HP: 1164
+*** Sarkany felfalja: M1
+VERESEG!
+
+Party2 vs Dragon2:
+R1 tamad! Sarkany HP: 475
+K3 tamad! Sarkany HP: 474
+R2 tamad! Sarkany HP: 439
+K1 tamad! Sarkany HP: 438
+R4 tamad! Sarkany HP: 373
+R3 tamad! Sarkany HP: 328
+M1 tamad! Sarkany HP: 324
+M2 tamad! Sarkany HP: 307
+*** Sarkany felfalja: R1
+K3 tamad! Sarkany HP: 306
+R2 tamad! Sarkany HP: 271
+K1 tamad! Sarkany HP: 270
+R4 tamad! Sarkany HP: 205
+R3 tamad! Sarkany HP: 160
+M1 tamad! Sarkany HP: 158
+M2 tamad! Sarkany HP: 150
+*** Sarkany felfalja: K3
+R2 tamad! Sarkany HP: 115
+K1 tamad! Sarkany HP: 114
+R4 tamad! Sarkany HP: 49
+R3 tamad! Sarkany HP: 4
+M1 tamad! Sarkany HP: 3
+M2 tamad! Sarkany HP: 2
+*** Sarkany felfalja: R2
+K1 tamad! Sarkany HP: 1
+R4 tamad! Sarkany HP: -64
+GYOZELEM!
+
+Party3 vs Dragon3:
+R1 tamad! Sarkany HP: 1675
+K4 tamad! Sarkany HP: 1595
+K3 tamad! Sarkany HP: 1525
+M3 tamad! Sarkany HP: 1067
+R5 tamad! Sarkany HP: 982
+*** Sarkany felfalja: R1
+K4 tamad! Sarkany HP: 902
+K3 tamad! Sarkany HP: 832
+M3 tamad! Sarkany HP: 582
+R5 tamad! Sarkany HP: 497
+*** Sarkany felfalja: K4
+K3 tamad! Sarkany HP: 427
+M3 tamad! Sarkany HP: 298
+R5 tamad! Sarkany HP: 213
+*** Sarkany felfalja: K3
+M3 tamad! Sarkany HP: 149
+R5 tamad! Sarkany HP: 64
+*** Sarkany felfalja: M3
+R5 tamad! Sarkany HP: -21
+GYOZELEM!
+
+main() vege!

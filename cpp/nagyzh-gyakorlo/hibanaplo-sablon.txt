@@ -1,0 +1,22 @@
+Feladat:
+
+Tünet:
+[ ] fordítási hiba
+[ ] linker hiba
+[ ] futási hiba / crash
+[ ] rossz output
+[ ] rossz fájlkimenet
+[ ] memóriahiba
+
+Hol jelent meg:
+Fájl:
+Függvény:
+Sor vagy kimeneti rész:
+
+Mi volt az ok:
+
+Miért nem vettem észre elsőre:
+
+Javítás:
+
+Megelőző szabály saját szavaimmal:

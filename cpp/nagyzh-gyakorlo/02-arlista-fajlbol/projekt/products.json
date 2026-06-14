@@ -1,0 +1,5 @@
+[
+  { "Id": "P1", "Name": "Szek", "Price": 14990, "Weight": 1.4 },
+  { "Id": "P2", "Name": "Asztal", "Price": 39990, "Weight": 8.2 },
+  { "Id": "P3", "Name": "Polc", "Price": 21990, "Weight": 4.7 }
+]

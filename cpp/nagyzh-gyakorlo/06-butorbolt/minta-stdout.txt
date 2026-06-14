@@ -1,0 +1,10 @@
+CH1: 5 db
+TB1: 2 db
+WR1: 1 db
+Order ok price: 69000
+Order fail price: 198000
+Deliver ok: 1
+Deliver fail: 0
+CH1: 3 db
+TB1: 1 db
+WR1: 1 db

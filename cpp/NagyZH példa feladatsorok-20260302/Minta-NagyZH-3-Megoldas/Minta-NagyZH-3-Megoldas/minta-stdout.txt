@@ -1,0 +1,44 @@
+main() eleje!
+
+---Vasarlasok, print()
+Bevasarlas elemei:
+[milk, 300 x 5 l]
+[apple, 594 x 1.4 kg]
+[book, 1500 x 6 pcs]
+[grape, 1200 x 2.5 kg]
+[spoon, 150 x 10 pcs]
+
+---Vegosszeg lekerdezese (alap)
+sum == 15831
+
+---Vegosszeg lekerdezese (kuponok hasznalata)
+sum == 9831
+sum == 10831
+sum == 10831
+sum == 10831
+sum == 10831
+sum == 12831
+sum == 12831
+
+---Datum atallitasa, havi kuponok
+sum == 12831
+sum == 15831
+sum == 12831
+
+---loadCoupons(), countCoupons(), exportCounts()
+>>> Beolvasas: coupons-1.json ...
+2
+3
+sum == 4091
+0
+3
+2
+>>> Beolvasas: coupons2.json ...
+2
+6
+sum == 1141
+0
+6
+7
+
+main() vege!

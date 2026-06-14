@@ -1,0 +1,5 @@
+Electric bikes:
+Bike B1, price: 120000, electric: yes
+Cars with at least 6 seats:
+Car C2, price: 4000000, seats: 7
+Cheap vehicle count: 2

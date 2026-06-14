@@ -1,0 +1,5 @@
+[
+  { "Type": "Single use", "Value": 1000 },
+  { "Type": "Multiple use", "Value": 500, "TotalUses": 2 },
+  { "Type": "Monthly", "Value": 2000, "Year": 2024, "Month": 5 }
+]

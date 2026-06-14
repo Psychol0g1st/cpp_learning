@@ -1,0 +1,41 @@
+main() eleje!
+
+---All products---
+Chair "CH-oak-x321": Oak, 0.86kg, 50x120x40, 25000Ft, style: long-back
+Table "TB-pine-234k": Pine, 5.65kg, 80x90x130, 78000Ft, legs: 4 non-adjustable
+Wardrobe "WR-mahogany-k4m6": Mahogany, 23.62kg, 120x190x60, 218500Ft, doors: 3, mirror: Yes
+Wardrobe "WR-pine-32k6": Pine, 18.54kg, 80x160x55, 156500Ft, doors: 2, mirror: No
+Chair "CH-cedar-3214": Cedar, 1.23kg, 60x60x50, 16000Ft, style: short-round
+Table "TB-cherry-234k": Cherry, 4.65kg, 100x800x180, 112000Ft, legs: 6 adjustable
+
+---Current stock---
+12 X Chair "CH-oak-x321": Oak, 0.86kg, 50x120x40, 25000Ft, style: long-back
+6 X Table "TB-pine-234k": Pine, 5.65kg, 80x90x130, 78000Ft, legs: 4 non-adjustable
+3 X Wardrobe "WR-mahogany-k4m6": Mahogany, 23.62kg, 120x190x60, 218500Ft, doors: 3, mirror: Yes
+6 X Wardrobe "WR-pine-32k6": Pine, 18.54kg, 80x160x55, 156500Ft, doors: 2, mirror: No
+12 X Chair "CH-cedar-3214": Cedar, 1.23kg, 60x60x50, 16000Ft, style: short-round
+3 X Table "TB-cherry-234k": Cherry, 4.65kg, 100x800x180, 112000Ft, legs: 6 adjustable
+
+Price of order 1: 375500
+Price of order 2: 327000
+Price of order 3: 1038000
+Order 1 delivered? 1
+Order 2 delivered? 1
+Order 3 delivered? 0
+---Current stock after deliveries---
+6 X Chair "CH-oak-x321": Oak, 0.86kg, 50x120x40, 25000Ft, style: long-back
+4 X Table "TB-pine-234k": Pine, 5.65kg, 80x90x130, 78000Ft, legs: 4 non-adjustable
+2 X Wardrobe "WR-mahogany-k4m6": Mahogany, 23.62kg, 120x190x60, 218500Ft, doors: 3, mirror: Yes
+6 X Wardrobe "WR-pine-32k6": Pine, 18.54kg, 80x160x55, 156500Ft, doors: 2, mirror: No
+8 X Chair "CH-cedar-3214": Cedar, 1.23kg, 60x60x50, 16000Ft, style: short-round
+2 X Table "TB-cherry-234k": Cherry, 4.65kg, 100x800x180, 112000Ft, legs: 6 adjustable
+
+---Current stock after production---
+10 X Chair "CH-oak-x321": Oak, 0.86kg, 50x120x40, 25000Ft, style: long-back
+4 X Table "TB-pine-234k": Pine, 5.65kg, 80x90x130, 78000Ft, legs: 4 non-adjustable
+7 X Wardrobe "WR-mahogany-k4m6": Mahogany, 23.62kg, 120x190x60, 218500Ft, doors: 3, mirror: Yes
+6 X Wardrobe "WR-pine-32k6": Pine, 18.54kg, 80x160x55, 156500Ft, doors: 2, mirror: No
+8 X Chair "CH-cedar-3214": Cedar, 1.23kg, 60x60x50, 16000Ft, style: short-round
+4 X Table "TB-cherry-234k": Cherry, 4.65kg, 100x800x180, 112000Ft, legs: 6 adjustable
+
+main() vege!

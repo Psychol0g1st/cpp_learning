@@ -1,0 +1,27 @@
+[
+    {
+        "Id": "R1",
+        "Price": 75,
+        "Agility": 25
+    },
+    {
+        "Id": "R2",
+        "Price": 115,
+        "Agility": 35
+    },
+    {
+        "Id": "R3",
+        "Price": 145,
+        "Agility": 45
+    },
+    {
+        "Id": "R4",
+        "Price": 185,
+        "Agility": 65
+    },
+    {
+        "Id": "R5",
+        "Price": 325,
+        "Agility": 85
+    }
+]

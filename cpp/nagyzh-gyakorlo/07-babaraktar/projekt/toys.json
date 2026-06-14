@@ -1,0 +1,4 @@
+[
+  { "Id": "T1", "Name": "Kocka", "Price": 3000, "Quantity": 10, "Age": 3 },
+  { "Id": "T2", "Name": "Auto", "Price": 7000, "Quantity": 2, "Age": 4 }
+]

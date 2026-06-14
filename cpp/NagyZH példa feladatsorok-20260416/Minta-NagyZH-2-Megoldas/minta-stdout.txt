@@ -1,0 +1,87 @@
+main() eleje!
+
+Teljes termeklista:
+10 x #1234(toy): Epitokocka, 5890 Ft, age: 3
+30 x #0235(toy): Szenzoros konyv, 5480 Ft, age: 2
+18 x #7409(toy): Csorgolabda, 2690 Ft, age: 1
+4 x #9987(toy): Tuzoltoauto, 15990 Ft, age: 2
+35 x #8436(clothes): Kombidressz, 1800 Ft, size: 52/56
+18 x #8002(clothes): Pullover, 6400 Ft, size: S/M
+12 x #8999(clothes): Nadrag, 13400 Ft, size: 80-100
+11 x #2653(chair): BEBE COMFORT, 13580 Ft, can be set? No
+3 x #9812(chair): ROBA, 31180 Ft, can be set? Yes
+2 x #0011(chair): PEG PEREGO, 134990 Ft, can be set? Yes
+
+Csak jatekok ("toy"):
+10 x #1234(toy): Epitokocka, 5890 Ft, age: 3
+30 x #0235(toy): Szenzoros konyv, 5480 Ft, age: 2
+18 x #7409(toy): Csorgolabda, 2690 Ft, age: 1
+4 x #9987(toy): Tuzoltoauto, 15990 Ft, age: 2
+
+Csak ruhak ("clothes"):
+35 x #8436(clothes): Kombidressz, 1800 Ft, size: 52/56
+18 x #8002(clothes): Pullover, 6400 Ft, size: S/M
+12 x #8999(clothes): Nadrag, 13400 Ft, size: 80-100
+
+Csak etetoszekek ("chair"):
+11 x #2653(chair): BEBE COMFORT, 13580 Ft, can be set? No
+3 x #9812(chair): ROBA, 31180 Ft, can be set? Yes
+2 x #0011(chair): PEG PEREGO, 134990 Ft, can be set? Yes
+
+Jatekok, 2000 Ft-tol 10000 Ft-ig:
+10 x #1234(toy): Epitokocka, 5890 Ft, age: 3
+30 x #0235(toy): Szenzoros konyv, 5480 Ft, age: 2
+18 x #7409(toy): Csorgolabda, 2690 Ft, age: 1
+Jatekok, 5500 Ft-tol 20000 Ft-ig:
+10 x #1234(toy): Epitokocka, 5890 Ft, age: 3
+4 x #9987(toy): Tuzoltoauto, 15990 Ft, age: 2
+
+Ruhak, 0 Ft-tol 10000 Ft-ig:
+35 x #8436(clothes): Kombidressz, 1800 Ft, size: 52/56
+18 x #8002(clothes): Pullover, 6400 Ft, size: S/M
+Ruhak, 5000 Ft-tol 15000 Ft-ig:
+18 x #8002(clothes): Pullover, 6400 Ft, size: S/M
+12 x #8999(clothes): Nadrag, 13400 Ft, size: 80-100
+
+Etetoszekek, 0 Ft-tol 12000 Ft-ig:
+Etetoszekek, 30000 Ft-tol 150000 Ft-ig:
+3 x #9812(chair): ROBA, 31180 Ft, can be set? Yes
+2 x #0011(chair): PEG PEREGO, 134990 Ft, can be set? Yes
+
+Teljes termeklista (leszallitas utan):
+26 x #1234(toy): Epitokocka, 5890 Ft, age: 3
+30 x #0235(toy): Szenzoros konyv, 5480 Ft, age: 2
+45 x #7409(toy): Csorgolabda, 2690 Ft, age: 1
+4 x #9987(toy): Tuzoltoauto, 15990 Ft, age: 2
+35 x #8436(clothes): Kombidressz, 1800 Ft, size: 52/56
+23 x #8002(clothes): Pullover, 6400 Ft, size: S/M
+18 x #8999(clothes): Nadrag, 13400 Ft, size: 80-100
+11 x #2653(chair): BEBE COMFORT, 13580 Ft, can be set? No
+6 x #9812(chair): ROBA, 31180 Ft, can be set? Yes
+2 x #0011(chair): PEG PEREGO, 134990 Ft, can be set? Yes
+
+Vasarlas 1 sikeres, megmaradt penz: 104010
+Vasarlas 2 sikeres, megmaradt penz: 90560
+Vasarlas 3 sikeres, megmaradt penz: 77760
+Hiba: id nem letezik: 4624
+Vasarlas 4 SIKERTELEN, megmaradt penz: 77760
+Hiba: keves van raktaron: 3 db, ennyi kellene: 4 db
+Vasarlas 5 SIKERTELEN, megmaradt penz: 77760
+Vasarlas 6 sikeres, megmaradt penz: 29790
+Vasarlas 7 sikeres, megmaradt penz: 2990
+Hiba: a vasarlo penze keves: 2990 Ft, de ennyi a vegosszeg: 13400
+Vasarlas 8 SIKERTELEN, megmaradt penz: 2990
+
+Vegso termeklista (eladasok utan):
+26 x #1234(toy): Epitokocka, 5890 Ft, age: 3
+30 x #0235(toy): Szenzoros konyv, 5480 Ft, age: 2
+40 x #7409(toy): Csorgolabda, 2690 Ft, age: 1
+0 x #9987(toy): Tuzoltoauto, 15990 Ft, age: 2
+35 x #8436(clothes): Kombidressz, 1800 Ft, size: 52/56
+21 x #8002(clothes): Pullover, 6400 Ft, size: S/M
+16 x #8999(clothes): Nadrag, 13400 Ft, size: 80-100
+11 x #2653(chair): BEBE COMFORT, 13580 Ft, can be set? No
+6 x #9812(chair): ROBA, 31180 Ft, can be set? Yes
+2 x #0011(chair): PEG PEREGO, 134990 Ft, can be set? Yes
+
+main() vege!

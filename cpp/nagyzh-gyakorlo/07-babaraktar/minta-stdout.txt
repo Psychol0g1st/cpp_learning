@@ -1,0 +1,7 @@
+10 x #T1(toy): Kocka, 3000 Ft, age: 3
+2 x #T2(toy): Auto, 7000 Ft, age: 4
+4 x #C1(clothes): Pulover, 6000 Ft, size: S
+1 x #H1(chair): Etetoszek, 25000 Ft, can be set? Yes
+Vasarlas 1 sikeres, penz: 43000
+Vasarlas 2 SIKERTELEN, penz: 43000
+Vasarlas 3 SIKERTELEN, penz: 43000

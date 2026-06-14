@@ -1,0 +1,12 @@
+{
+  "Products": [
+    { "Type": "Chair", "Id": "CH1", "WoodType": "Oak", "Weight": 1.2, "Price": 12000, "Style": "short" },
+    { "Type": "Table", "Id": "TB1", "WoodType": "Pine", "Weight": 8.4, "Price": 45000, "LegCount": 4, "LegsAdjustable": false },
+    { "Type": "Wardrobe", "Id": "WR1", "WoodType": "Beech", "Weight": 22.0, "Price": 99000, "DoorCount": 2, "HasMirror": true }
+  ],
+  "Stock": [
+    { "ProductId": "CH1", "Quantity": 5 },
+    { "ProductId": "TB1", "Quantity": 2 },
+    { "ProductId": "WR1", "Quantity": 1 }
+  ]
+}
